@@ -24,8 +24,8 @@ body {
 .chatbot-box {
   position: relative;
   z-index: 2; /* above overlay */
-  width: 400px;
-  height: 540px;
+  width: 460px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
@@ -187,3 +187,19 @@ body {
       color: white;
       border-color: #ff4b2b;
     }
+
+@media (max-width: 600px) {
+  .chatbot-box {
+    width: 90%;   /* smaller width */
+    height: 80vh; /* adjust height to screen */
+  }
+
+  .chat-input {
+    font-size: 12px;
+  }
+
+  .chat-header {
+    font-size: 16px;
+  }
+}
+
