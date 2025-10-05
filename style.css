@@ -24,8 +24,8 @@ body {
 .chatbot-box {
   position: relative;
   z-index: 2; /* above overlay */
-  width: 460px;
-  height: 600px;
+  width: 400px;
+  height: 540px;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
