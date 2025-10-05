@@ -45,7 +45,7 @@ body {
   text-align: center;
 }
 
-/* Bot messages (left) */
+/* Bot messages left */
 .bot-msg {
   max-width: 75%;
   background: #ffffffcc; /* frosted white */
@@ -62,7 +62,7 @@ body {
   cursor: pointer;
 }
 
-/* User messages (right) */
+/* User messages right */
 .user-msg {
   max-width: 75%;
   background: linear-gradient(135deg, #ff4b2b, #ff416c);
@@ -78,9 +78,9 @@ body {
 
 /* scrollable messages */
 .messages {
-  flex: 1; /* take available space */
+  flex: 1; 
   padding: 15px;
-  overflow-y: auto; /* enable scrolling */
+  overflow-y: auto; 
   display: flex;
   flex-direction: column;
   gap: 8px;
