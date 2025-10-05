@@ -190,8 +190,8 @@ body {
 
 @media (max-width: 600px) {
   .chatbot-box {
-    width: 90%;   /* smaller width */
-    height: 80vh; /* adjust height to screen */
+    width: 380px;   /* smaller width */
+    height: 100%; /* adjust height to screen */
   }
 
   .chat-input {
