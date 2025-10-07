@@ -88,7 +88,7 @@ function answer(event) {
         addBotMessage("Please choose an option below:");
         showOptions([
           "🔙 Back to Main Menu",
-          "Delivery Details",
+          "🚚 Delivery Details",
           "💳 Payment Options",
           "🛒 Place Order",
         ]);
@@ -134,7 +134,6 @@ function answer(event) {
         );
         showOptions([
           "🔙 Back to Main Menu",
-          "Delivery Details",
           "💳 Payment Options",
           "🛒 Place Order",
         ]);
